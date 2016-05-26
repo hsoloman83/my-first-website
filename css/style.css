@@ -54,17 +54,7 @@ reusable parts of our design
   max-width: 1000px;
   margin: 0 auto;
 }
-.cd-container2 {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0px;
-}
 .cd-container::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.cd-container2::after {
   content: '';
   display: table;
   clear: both;
@@ -353,17 +343,26 @@ main content
 }
 .image{
   position: relative;
-  width: 600;
+  width: 500;
   height: 660;
   margin-left: 0px;
   margin-right: 0px;
 }
 .text{
-  position: relative;
+  position: absolute;
+  width: 500px;
+  height: 300px;
   width: auto;
   height: auto;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.text h1{
+  font-family:"Champagne &amp; Limousines Bold";
+  font-size:2rem;
+  letter-spacing: 0.1rem;
 }
 .box{
   font-family:"Champagne &amp; Limousines Bold";
