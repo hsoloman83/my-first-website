@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    	<meta charset="utf-8">
+    	<meta name="description" content="site description goes here">
+    	<meta name="keywords" content="site, keywords, go, here">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Course Application</title>
+  </head>
+	<body>
+		<div class="site-container">
+			<header class="site-header">
+				<h1>Course Application</h1>
+			</header>
+			<hr></hr>
+			<main class="site-content">
+				<form action="#" method="post">
+          <div class="form-field">
+            <label for="date">DATE OF CEREMONY</label>
+            <input type="date" name="date" id="date">
+          </div>
+          <div class="form-field">
+    				<label for="name">NAME</label>
+    				<input type="text" name="full_name" id="first" placeholder="First">	
+            <input type="text" name="full_name" id="last" placeholder="Last">
+  				</div>
+  				<div class="form-field">
+    				<label for="phone">CONTACT NO.</label>
+    				<input type="tel" name="phone" id="phone" maxlength="11" pattern="[0-9]+">
+  				</div>
+            <div class="form-field">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email"">
+            </div>
+              <label for="past experience">APPROXIMATE BUDGET</label>
+    				  <input type="text" name="budget" id="budget">
+            </div>
+            <h2>Anything Else?</h2>
+            <div>
+              <label for="referral">Referral</label>
+              <select name="referral">
+                <option value="none" selected>None</option>
+                <option value="friend">Friend</option>
+                <option value="instructor">Instructor</option>
+                <option value="online">Online</option>
+              </select>
+            </div>
+            <div>
+              <label for="comments">Comments</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+  					<div class="form-field">
+    					<input type="submit" value="Save Draft">
+              <input type="submit" value="Submit">
+  					</div>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>

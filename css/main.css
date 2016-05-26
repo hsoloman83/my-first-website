@@ -1,0 +1,324 @@
+/* 
+Project Name: COURSE APPLICATION
+Client: GA
+Author: HANNA SOLOMAN
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/*	DARK GREY #5f5f5f
+	GREY #ccc
+	BEIGE #fff9e2
+	LIGHT GREY #ececec
+	*/
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+* {
+    box-sizing: border-box;
+}
+html{
+	background: url(../img/background.png);
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+ @font-face {
+  font-family:"Champagne &amp; Limousines";
+  src: url("Champagne_Limousines.eot?") format("eot"),
+    url("Champagne_Limousines.woff") format("woff"),
+    url("Champagne_Limousines.ttf") format("truetype"),
+    url("Champagne_Limousines.svg#Champagne&Limousines") format("svg");
+    font-weight:normal;font-style:normal;
+}
+
+@font-face {
+  font-family:"Champagne &amp; Limousines Bold Italic";
+  src:url("Champagne___Limousines_Bold_Italic.eot?") format("eot"),
+    url("Champagne___Limousines_Bold_Italic.woff") format("woff"),
+    url("Champagne___Limousines_Bold_Italic.ttf") format("truetype"),
+    url("Champagne___Limousines_Bold_Italic.svg#Champagne&Limousines-BoldItalic") format("svg");
+    font-weight:normal;font-style:normal;}
+
+@font-face {
+  font-family:"Champagne &amp; Limousines Bold";
+  src:url("Champagne___Limousines_Bold.eot?") format("eot"),
+    url("Champagne___Limousines_Bold.woff") format("woff"),
+    url("Champagne___Limousines_Bold.ttf") format("truetype"),
+    url("Champagne___Limousines_Bold.svg#Champagne&Limousines-Bold") format("svg");
+    font-weight:normal;font-style:normal;}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	max-width: 800px;
+	border: 1px solid #5f5f5f;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+	width: 800px;
+	height: 720px;
+	border-radius: 10px;
+	font-family:"Champagne &amp; Limousines", sans-serif;
+	font-style: normal;
+	font-size: 13px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 30px #ccc;
+	margin-bottom: 60px;
+}
+
+.site-content {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+.site-header {
+	color: #5f5f5f;
+	background:linear-gradient(white, #ccc);
+	margin-bottom: -9px;
+	padding-bottom: -10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.site-header h1 {
+	font-family:"Champagne &amp; Limousines Bold", sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	color:#5f5f5f;
+	margin: 0px;
+	margin-bottom: 9px;
+}
+
+hr{
+	border-bottom: 1px thin #5f5f5f;
+	margin: 0px;
+	padding: 0px;
+}
+
+/******************************************
+/* FORM
+/*******************************************/
+
+h2{
+	font-family:"Champagne &amp; Limousines", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align: left;
+	font-size: 14px;
+}
+
+input[type="text"]{
+	background:#fff9e2;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	width: 200px;
+	margin-top: 12px;
+	height: 25px;
+}
+
+input:focus{
+  background:white;
+}
+
+label[for="name"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 13px;
+	font-weight: normal;
+	font-weight: normal;
+}
+
+input[placeholder="First"]{
+	padding: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	font-weight: normal;
+	margin-right: 12px;
+}
+
+input[placeholder="Last"]{
+	padding: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	font-weight: normal;
+}
+
+label[for="phone"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 13px;
+	font-weight: normal;
+	font-weight: normal;
+	padding-top: 15px;
+}
+
+input[type="tel"]{
+	background:#fff9e2;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	width: 200px;
+	margin-top: 10px;
+	height: 25px;
+}
+
+input[type="email"]{
+	background:#fff9e2;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	width: 200px;
+	margin-top: 10px;
+	height: 25px;
+	margin-left: 96px;
+}
+
+input[type="tel"]:focus{
+	background: white;
+}
+
+label[for="date"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 13px;
+	font-weight: normal;
+	font-weight: normal;
+	padding-top: 15px;
+}
+
+input[name="date"]{
+	background:#fff9e2;
+	border-radius: 4px;
+    background: #fff9e2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: -1px;
+	border:1px solid #ccc;
+}
+
+input[type="text"]:focus{
+	background: white;
+}
+
+
+label[for="course"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 12px;
+	font-weight: normal;
+	font-weight: normal;
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+
+label[for="past experience"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 12px;
+	font-weight: normal;
+	font-weight: normal;
+	padding-top: 17px;
+}
+
+textarea[name="message"]{
+	background:#fff9e2;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	margin-top: 12px;
+	width: 529px;
+	height: 100px;
+}
+
+textarea[name="message"]:focus{
+  background:white;
+}
+
+textarea{
+	resize: none;
+}
+
+select {
+	background:linear-gradient(#ccc, #fff9e2);
+	font-size: 12px;
+	font-weight: normal;
+	font-weight: normal;
+	border: 1px solid #ccc;
+}
+
+label[for="referral"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 12px;
+	font-weight: normal;
+	font-weight: normal;
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+
+label[for="comments"]{
+	display:inline-block;
+	width:126px;
+	vertical-align:top;
+	font-size: 12px;
+	font-weight: normal;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+
+input[type="submit"]{
+	font-family:"Champagne &amp; Limousines", sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+	text-align: left;
+	font-size: 12px;
+	margin-top: 40px;
+	background:linear-gradient(white, #ececec);
+	border: 1px solid #5f5f5f;
+	border-radius: 5px;
+	margin-right: 6px;
+}
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
