@@ -225,7 +225,7 @@ main content
   background-image: url("../img/cd-background-3.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/cd-background-4.jpg");
+  background-image: url("../img/cd-background-13.jpg");
 }
 .cd-fixed-bg.cd-bg-5 {
   background-image: url("../img/cd-background-5.jpg");
@@ -348,6 +348,13 @@ main content
   margin-left: 0px;
   margin-right: 0px;
 }
+.image2{
+  position: relative;
+  left: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 40px;
+}
 .text{
   position: absolute;
   width: 500px;
@@ -358,11 +365,14 @@ main content
   margin-right: 50px;
   margin-top: 15px;
 }
-
 .text h1{
   font-family:"Champagne &amp; Limousines Bold";
   font-size:2rem;
   letter-spacing: 0.1rem;
+  padding-top: 20px;
+}
+.text p{
+  width:500px;
 }
 .box{
   font-family:"Champagne &amp; Limousines Bold";
