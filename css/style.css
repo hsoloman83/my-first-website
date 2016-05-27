@@ -263,6 +263,18 @@ main content
 .cd-fixed-bg.cd-bg-16 {
   background-image: url("../img/cd-background-18.jpg");
 }
+.cd-fixed-bg.cd-bg-17 {
+  background-image: url("../img/rose.jpg");
+}
+.cd-fixed-bg.cd-bg-18 {
+  background-image: url("../img/cd-background-19.jpg");
+}
+.cd-fixed-bg.cd-bg-19 {
+  background-image: url("../img/cd-background-21.jpg");
+}
+.cd-fixed-bg.cd-bg-20 {
+  background-image: url("../img/cd-background-4.jpg");
+}
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
